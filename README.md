@@ -13,7 +13,7 @@ TriggerEvent('rNotify:ShowBasicTopNotification', "your text", 4000)
 TriggerEvent('rNotify:ShowSimpleCenterText', "your text", 4000)
 ```
 
-# CLIENT EXMAPLE USAGE:
+# SERVER EXMAPLE USAGE:
 ```lua
 TriggerClientEvent('rNotify:NotifyLeft', source, "first text", "second text", "generic_textures", "tick", 4000)
 TriggerClientEvent('rNotify:Tip', source, "your text", 4000)
