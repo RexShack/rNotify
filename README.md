@@ -1,6 +1,6 @@
 Source: https://github.com/RedEM-RP/redem_roleplay 
 
-# CLIENT EXMAPLE USAGE:
+# CLIENT EXAMPLE USAGE:
 ```lua
 TriggerEvent('rNotify:NotifyLeft', "first text", "second text", "generic_textures", "tick", 4000)
 TriggerEvent('rNotify:Tip', "your text", 4000)
@@ -13,7 +13,7 @@ TriggerEvent('rNotify:ShowBasicTopNotification', "your text", 4000)
 TriggerEvent('rNotify:ShowSimpleCenterText', "your text", 4000)
 ```
 
-# SERVER EXMAPLE USAGE:
+# SERVER EXAMPLE USAGE:
 ```lua
 TriggerClientEvent('rNotify:NotifyLeft', source, "first text", "second text", "generic_textures", "tick", 4000)
 TriggerClientEvent('rNotify:Tip', source, "your text", 4000)
